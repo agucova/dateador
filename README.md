@@ -1,4 +1,4 @@
-hu# Dateador
+# Dateador
 Script que se conecta a dos sitios diferentes para obtener información de personas chilenas.
 <pre>
 ╔═══╗  ╔╗        ╔╗
