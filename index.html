@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-ES">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Dateador</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,69 +9,75 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
+</head>
+
+<body>
     <section class="page-header">
-      <h1 class="project-name">Dateador</h1>
-      <h2 class="project-tagline">Script para búsqueda de personas en Chile.</h2>
-      <a href="https://github.com/agucova/dateador" class="btn">Ver en GitHub</a>
-      <a href="https://github.com/agucova/dateador/zipball/master" class="btn">Descargar .zip</a>
-      <a href="https://github.com/agucova/dateador/tarball/master" class="btn">Descargar .tar.gz</a>
+        <h1 class="project-name">Dateador</h1>
+        <h2 class="project-tagline">Script para búsqueda de personas en Chile.</h2>
+        <a href="https://github.com/agucova/dateador" class="btn">Ver en GitHub</a>
+        <a href="https://github.com/agucova/dateador/zipball/master" class="btn">Descargar .zip</a>
+        <a href="https://github.com/agucova/dateador/tarball/master" class="btn">Descargar .tar.gz</a>
     </section>
 
     <section class="main-content">
-      <h1>
-<a id="dateador" class="anchor" href="#dateador" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dateador</h1>
+        <h1>
+      <a id="dateador" class="anchor" href="#dateador" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dateador</h1>
 
-<p>Script que se conecta a dos sitios diferentes para obtener información de personas chilenas.</p>
+        <p>Script que se conecta a dos sitios diferentes para obtener información de personas chilenas.</p>
 
-<pre>
-╔═══╗  ╔╗        ╔╗
-╚╗╔╗║ ╔╝╚╗       ║║
- ║║║╠═╩╗╔╬══╦══╦═╝╠══╦═╗
- ║║║║╔╗║║║║═╣╔╗║╔╗║╔╗║╔╝
-╔╝╚╝║╔╗║╚╣║═╣╔╗║╚╝║╚╝║║
-╚═══╩╝╚╩═╩══╩╝╚╩══╩══╩╝
-</pre>
+        <pre>
+        ╔═══╗  ╔╗        ╔╗
+        ╚╗╔╗║ ╔╝╚╗       ║║
+        ║║║╠═╩╗╔╬══╦══╦═╝╠══╦═╗
+        ║║║║╔╗║║║║═╣╔╗║╔╗║╔╗║╔╝
+        ╔╝╚╝║╔╗║╚╣║═╣╔╗║╚╝║╚╝║║
+        ╚═══╩╝╚╩═╩══╩╝╚╩══╩══╩╝
+      </pre>
 
-<h1>
-<a id="requisitos" class="anchor" href="#requisitos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requisitos</h1>
+        <h1>
+        <a id="requisitos" class="anchor" href="#requisitos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requisitos</h1>
 
-<p>Antes de usarlo, necesitarás las siguientes dependencias:</p>
+        <p>Antes de usarlo, necesitarás las siguientes dependencias:</p>
 
-<ul>
-  <li>Python 2.7</li>
-  <li>BeautifulSoup (<code>pip install beautifulsoup</code>)</li>
-  <li>Requests (<code>pip install requests</code>)</li>
-  <li>TermColor (<code>pip install termcolor</code>)</li>
-  <li>HTML5Lib (<code>pip install --upgrade html5lib==1.0b8</code>)</li>
-</ul>
-      <h1>Uso</h1>
-      <p>Hay 2 modos de uso, interactivo y por argumentos.</p>
-      <h2>Ejemplos</h2>
-<a id="interactivo" class="anchor" href="#interactivo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactivo</h3>
-<div class="highlight highlight-source-shell"><pre><span class="pl-c"># Al no darse argumentos, se usa el modo interactivo</span>
-python dateador.py</pre></div>
+        <ul>
+            <li>Python 2.7</li>
+            <li>BeautifulSoup (<code>pip install beautifulsoup</code>)</li>
+            <li>Requests (<code>pip install requests</code>)</li>
+            <li>TermColor (<code>pip install termcolor</code>)</li>
+            <li>HTML5Lib (<code>pip install --upgrade html5lib==1.0b8</code>)</li>
+        </ul>
+        <h1>Uso</h1>
+        <p>Hay 2 modos de uso, interactivo y por argumentos.</p>
+        <h2>Ejemplos</h2>
+        <a id="interactivo" class="anchor" href="#interactivo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactivo</h3>
+        <br>
+        <br>
+        <div class="highlight highlight-source-shell"><pre><span class="pl-c"># Al no darse argumentos, se usa el modo interactivo</span>
+          python dateador.py</pre></div>
 
-<a id="con-argumentos" class="anchor" href="#con-argumentos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Con Argumentos</h3>
+        <a id="con-argumentos" class="anchor" href="#con-argumentos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Con Argumentos</h3>
+        <br>
+        <br>
 
-<div class="highlight highlight-source-shell"><pre><span class="pl-c"># El nombre se da directamente desde la cli.</span>
-python dateador.py -n Pedro Aguirre</pre></div>
+        <div class="highlight highlight-source-shell"><pre><span class="pl-c"># El nombre se da directamente desde la cli.</span>
+            python dateador.py -n Pedro Aguirre</pre></div>
 
-<div class="highlight highlight-source-shell"><pre><span class="pl-c"># Con modo stalker, que da una lista de coincidencias.</span>
-python dateador.py -n -s Pedro Aguirre</pre></div>
+        <div class="highlight highlight-source-shell"><pre><span class="pl-c"># Con modo stalker, que da una lista de coincidencias.</span>
+              python dateador.py -n -s Pedro Aguirre</pre></div>
 
-<div class="highlight highlight-source-shell"><pre><span class="pl-c"># Guarda la información recolectada en un archivo.</span>
-python dateador.py -n Pedro Aguirre -o log.txt</pre></div>
+        <div class="highlight highlight-source-shell"><pre><span class="pl-c"># Guarda la información recolectada en un archivo.</span>
+                python dateador.py -n Pedro Aguirre -o log.txt</pre></div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/agucova/dateador">Dateador</a> es mantenido por <a href="https://github.com/hackingcl">unkndown</a> con contribuciones de <a href="https://github.com/agucova">agucova</a>.</span>
+        <footer class="site-footer">
+            <span class="site-footer-owner"><a href="https://github.com/agucova/dateador">Dateador</a> es mantenido por <a href="https://github.com/hackingcl">unkndown</a> con contribuciones de <a href="https://github.com/agucova">agucova</a>.</span>
 
-        <span class="site-footer-credits">Esta página fue generada con <a href="https://pages.github.com">GitHub Pages</a> usando el tema <a href="https://github.com/jasonlong/cayman-theme">Cayman</a> por <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+            <span class="site-footer-credits">Esta página fue generada con <a href="https://pages.github.com">GitHub Pages</a> usando el tema <a href="https://github.com/jasonlong/cayman-theme">Cayman</a> por <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+        </footer>
 
     </section>
 
-  
-  </body>
+
+</body>
+
 </html>
