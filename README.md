@@ -1,4 +1,4 @@
-# Dateador
+hu# Dateador
 Script que se conecta a dos sitios diferentes para obtener información de personas chilenas.
 <pre>
 ╔═══╗  ╔╗        ╔╗
@@ -31,7 +31,7 @@ python dateador.py -n Pedro Aguirre
 ```
 ```shell
 # Con modo stalker, que da una lista de coincidencias.
-python dateador.py -n -s Pedro Aguirre
+python dateador.py -s -n Pedro Aguirre
 ```
 ```shell
 # Guarda la información recolectada en un archivo.
